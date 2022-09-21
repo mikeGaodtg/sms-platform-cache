@@ -1,0 +1,8 @@
+server:
+  port: 6379
+spring:
+  redis:
+    host: 192.168.200.129
+    port: 6379
+  profiles:
+    active: '@profileActive@'
